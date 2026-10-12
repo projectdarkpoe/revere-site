@@ -1,0 +1,7 @@
+name = "revere-site"
+compatibility_date = "2026-10-01"
+
+[assets]
+# Only public/ is served. Nothing at the repo root ships.
+directory = "./public"
+not_found_handling = "404-page"

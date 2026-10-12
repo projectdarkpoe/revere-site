@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Revere</title>
+<style>
+:root{--bg:#0d1b2a;--fg:#f4efe6;--accent:#c8102e;--muted:#9fb0c3}
+*{box-sizing:border-box;margin:0}
+body{min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--fg);font-family:Georgia,"Times New Roman",serif;padding:24px;text-align:center}
+.lamp{width:56px;height:56px;margin:0 auto 28px;border-radius:50%;background:radial-gradient(circle,#ffd27a 0,#e89b2c 45%,transparent 70%);animation:glow 2.4s ease-in-out infinite}
+@keyframes glow{50%{opacity:.55;transform:scale(.92)}}
+h1{font-size:clamp(3rem,10vw,6rem);letter-spacing:.18em;font-weight:400}
+.rule{width:80px;height:3px;background:var(--accent);margin:22px auto}
+p{color:var(--muted);font-size:1.15rem;letter-spacing:.04em}
+</style></head>
+<body><main>
+<div class="lamp" aria-hidden="true"></div>
+<h1>REVERE</h1>
+<div class="rule"></div>
+<p>Colorado's field network. Coming soon.</p>
+</main></body></html>
